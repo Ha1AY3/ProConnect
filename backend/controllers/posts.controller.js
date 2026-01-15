@@ -3,8 +3,6 @@ import Profile from "../models/profile.model.js";
 import Post from '../models/posts.model.js';
 import Comment from '../models/comments.model.js';
 import bcrypt from 'bcrypt';
-import { comment } from "postcss";
-
 
 export const activeCheck = async(req, res) => {
     return res.status(200).json({message: "RUNNING"});
