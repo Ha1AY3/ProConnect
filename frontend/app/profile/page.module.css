@@ -1,0 +1,248 @@
+.container{
+    padding: 1.3rem;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.backDropContainer{
+    width: 100%;
+    height: 30vh;
+    background: url("./cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+
+.backDropContainer img{
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -35%;
+    left: 8%;
+    text-align: center;
+}
+
+.backDrop_overlay{
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -35%;
+    left: 8%;
+    text-align: center;
+    z-index: 4;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: white;
+    opacity: 0.0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.backDrop_overlay:hover{
+    opacity: 0.7;
+    background: black;
+}
+
+
+.profileContainer_details{
+    padding-top: 6.6rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.card_profileContainer{
+    display: flex;
+}
+
+.card_profileContainer>img{
+    width: 3.4rem;
+    height: auto;
+    height: 3.4rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bioSection {
+  margin-top: 1.4rem;
+}
+
+.bioTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.bioTextarea {
+  width: 100%;
+  resize: none;
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  background-color: #f6f6f6;
+  color: #333;
+  outline: none;
+}
+
+
+.workHistory{
+    margin-top: 1.5rem;
+}
+
+.workHistoryContainer{
+    display: flex;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.workHistoryCard{
+    min-width: fit-content;
+    border-radius: 12px;
+    padding-inline: 2.5rem;
+    padding-block: 1rem;
+    box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.08),
+    0 10px 24px rgba(0, 0, 0, 0.12);
+
+
+}
+
+.profileContainer_details input{
+    outline: none;
+    border-style: none;
+    padding-inline: 10px;
+    padding-block: 9px;
+    width: fit-content;
+}
+
+.nameEdit{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.updateProfileBtn{
+    padding-inline: 0.8rem;
+    padding-block: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    background: rgba(3, 93,183, 0.905);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.profileContainer_details textarea{
+    outline: none;
+    border: none;
+    padding-inline: 10px;
+    padding-block: 9px;
+    font-family: "Poppins" !important;
+    font-size: 1.1rem;
+}
+
+
+.addWorkButton{
+    padding-inline: 1rem;
+    background: white;
+    border: 1px dotted silver;
+    border-radius: 10px;
+    padding-block: 1rem;
+    cursor: pointer;
+}
+
+.commentsContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.allCommentsContainer{
+    width: 40vw;
+    height: fit-content;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.inputField{
+    padding-inline: 1.3rem;
+    padding-block: 0.8rem;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid silver;
+    width: 100%;
+}
+
+.education{
+    margin-top: 2rem;
+}
+
+.educationContainer{
+    display: flex;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.educationCard{
+    min-width: fit-content;
+    padding-inline: 2.5rem;
+    padding-block: 1rem;
+    border-radius: 12px;
+     box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.08),
+    0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.activity{
+    margin-top: 2rem;
+}
+
+.card{
+    margin-top: 0.8rem;
+}
+
+.updateProfileBtn{
+    margin-top: 1.7rem;
+}
+
+.noActivity {
+    width: fit-content;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    color: #777;
+}
+
