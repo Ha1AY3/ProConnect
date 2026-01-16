@@ -2,7 +2,7 @@
 <h3 align="center">Full-Stack Professional Networking Platform</h3>
 
 <p align="center">
-  A production-ready full-stack application that simulates real-world professional networking, profile-based interactions, and resume generation.
+  A Deployed full-stack application that simulates real-world professional networking, profile-based interactions, and resume generation.
 </p>
 
 <hr />
